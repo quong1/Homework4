@@ -9,8 +9,9 @@ Install these prerequisites:
 - Ganache: http://truffleframework.com/ganache/
 
 ## Step 1: Clone the projects:
+```
 git clone https://github.com/quong1/Homework4.git
-
+```
 
 ## Step 2: Install dependencies
 On the root folder:
@@ -22,19 +23,21 @@ $ npm install
 Open the Ganache GUI client 
 
 ## Step 4: Compile & Deploy Smart Contract
+- Based on the code given at https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial. I make some changes for it to be able to run on solidity ^0.5.0 in Courses. sol.
+- I also create a second migration Javascript file named 2_migration.js for truffle to compile.
+- Compile and deploy smart contract using:
 ```
 truffle compile 
 truffle develop migrate --reset
 truffle develop
 ```
 
-Inside the develop, compile the contract using
+- Inside truffle develop, compile the contract using
 ```
-
 migrate --reset --all
 ```
 
-## Step 5: Testing function
+## Step 6: Testing function
 
 - Function setInstructor:
 ```
