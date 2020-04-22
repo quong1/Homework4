@@ -55,7 +55,6 @@ Courses.deployed().then(function(func){return func.getInstructors();})
 ```
 Output:
 ![Image](https://github.com/quong1/Homework4/blob/master/homework4/Output%20screenshots/Screenshot%20(103).png)
-
 -Function countInstuctors:
 ```
 Courses.deployed().then(function(func){return func.countInstructors();})
