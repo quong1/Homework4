@@ -8,7 +8,7 @@ Install these prerequisites:
 - Truffle: https://github.com/trufflesuite/truffle
 - Ganache: http://truffleframework.com/ganache/
 
-## Step 1:Clone the projects:
+## Step 1: Clone the projects:
 git clone https://github.com/quong1/Homework4.git
 
 
@@ -41,22 +41,25 @@ migrate --reset --all
 Courses.deployed().then(function(func){return func.setInstructor("0xAe2CF87569ABc0ACf0733d854e0705840fB5C783",34,"Alpha","Beta");})
 ```
 Output:
+![Image](https://github.com/quong1/Homework4/blob/master/homework4/Output%20screenshots/Screenshot%20(101).png)
 
 - Function getInstructor:
 ```
 Courses.deployed().then(function(func){return func.getInstructor("0xAe2CF87569ABc0ACf0733d854e0705840fB5C783");})
 ```
 Output:
+![Image](https://github.com/quong1/Homework4/blob/master/homework4/Output%20screenshots/Screenshot%20(102).png)
 - Function getInsturctors:
 ```
 Courses.deployed().then(function(func){return func.getInstructors();})
 ```
 Output:
+![Image](https://github.com/quong1/Homework4/blob/master/homework4/Output%20screenshots/Screenshot%20(103).png)
 
 -Function countInstuctors:
 ```
 Courses.deployed().then(function(func){return func.countInstructors();})
 ```
 Output:
-
+![Image](https://github.com/quong1/Homework4/blob/master/homework4/Output%20screenshots/Screenshot%20(104).png)
 
