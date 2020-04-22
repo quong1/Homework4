@@ -1,6 +1,6 @@
 # Homework4
 Make the contract at the end of: https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial
-Compatible with solidity 0.5 or higher.
+compatible with solidity 0.5 or higher.
 
 ## Dependencies:
 Install these prerequisites:
